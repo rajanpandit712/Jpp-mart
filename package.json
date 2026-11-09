@@ -1,0 +1,14 @@
+{
+  "name": "jpp-market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JPP Market - Full Stack E-Commerce Platform",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  }
+}
